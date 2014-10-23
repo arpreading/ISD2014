@@ -6,7 +6,6 @@ def member (item, lst):
     for x in lst:
         if == x item:
             found = True
-            break
 
     return found
 
@@ -15,11 +14,3 @@ def member (item, lst):
 #        print("List win")
 #    else:
 #        print("List boo)
-
-#tests
-print(member("a",[]))
-print(member("a",["a",2,3,4]))
-print(member("a",[1,2,3,"a"]))
-print(member("a",[1,2,3]))
-
-#"""refactor the above code to use a while loop, no break, no multi return"""
