@@ -16,6 +16,5 @@ for limit in range(1,21):
 print(val_1)
 print(val_2)
 print(val_3)
-    #print(val_2)
-    #print(prime,end="\t")    
+      
 
