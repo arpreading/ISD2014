@@ -1,0 +1,6 @@
+outfile = open("hello.txt" , "w")
+outfile.write ("Hello World! \n")
+outfile.close()
+infile = open ("hello.txt", "r")
+print(infile.readline())
+infile.close()
