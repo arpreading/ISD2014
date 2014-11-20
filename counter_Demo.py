@@ -1,0 +1,15 @@
+import os
+os.chdir("I:\ISD2014")
+from counter import *
+tally = Counter()
+cnt = Counter()
+print("tally = ", tally.getValue(), "counter = ", cnt.getValue())
+tally.click()
+tally.click()
+tally.click()
+tally.click()
+print("tally = ", tally.getValue(), "counter = ", cnt.getValue())
+cnt.click()
+print("tally = ", tally.getValue(), "counter = ", cnt.getValue())
+tally.reset()
+print("tally = ", tally.getValue(), "counter = ", cnt.getValue())
