@@ -1,7 +1,6 @@
 class CashRegister:
     def __init__(self):
-        self._valueItems = 0
-        self._valuePrice = 0
+        self.clear()
 
     def addItem(self,price):
         self._valuePrice += price
