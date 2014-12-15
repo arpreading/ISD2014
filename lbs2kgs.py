@@ -18,7 +18,7 @@ class lbs2kgs(Frame):
 
 
     def convert(self):
-        self._l.config(text = float(self._input.get())* 0.45359237)
+        self._l.config(text = (float(self._input.get())* 0.45359237)*1.00)
         
 
         
